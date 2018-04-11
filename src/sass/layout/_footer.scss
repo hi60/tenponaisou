@@ -34,6 +34,8 @@
 
     @include mq(sp) {
         flex-wrap: wrap;
+        justify-content: flex-start;
+        margin: 20px 0 0 20px;
     }
 }
 
@@ -58,7 +60,11 @@
     color: #fff;
     font-size: 12px;
     margin: 0 0 10px 10px;
-    white-space: nowrap
+    white-space: nowrap;
+
+    @include mq(tb) {
+        white-space: pre-wrap;
+    }
 }
 
 .l-footer__copyright {

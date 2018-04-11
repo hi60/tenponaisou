@@ -7,6 +7,7 @@
     padding: 5px 15px;
     border-radius: 3px;
     background: linear-gradient(to bottom, #f4ec05 0%, #9a9314 88%);
+    cursor: pointer;
     
     @include mq(tb) {
         width: 100%;
