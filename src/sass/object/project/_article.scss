@@ -1,0 +1,88 @@
+.p-keyvisual {
+    width: 100%;
+    background-color: #f2f2f2;
+    padding: 10px 0;
+
+    @include mq(tb) {
+        padding: 0 0 10px 0;
+    }
+}
+
+.p-keyvisual__wrap {
+    width: 960px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+
+    @include mq(tb) {
+        width: 100%;
+        justify-content: center;
+        flex-direction: column-reverse;
+        margin: 0 auto;
+    }
+}
+
+
+.p-construction__img__wrap {
+    position: relative;
+    overflow: hidden;
+}
+
+.p-construction__img-slider {
+    position: absolute;
+    display: flex;
+
+    li {
+        width: 460px;
+
+        @include mq(tb) {
+            width: 100%;
+        }
+    }
+}
+
+.p-recommend {
+    position: relative;
+    max-width: 960px;
+    margin: 20px auto 0;
+    border: 1px solid $brand-color;
+
+    @include mq(tb) {
+        margin: 10px;
+    }
+}
+
+.p-recommend__wrap {
+    padding: 10px;
+    background-color: #FCF3F4;
+}
+
+.p-recommend__slider {
+    overflow: hidden;
+    position: relative;
+    height: 194px;
+}
+
+.p-recommend-cards {
+    position: absolute;
+    display: flex;
+    align-items: flex-start;
+
+    & > li {
+        background-color: #fff;
+        margin-right: 10px;
+    }
+}
+
+.p-main__wrap {
+    display: flex;
+    justify-content: space-between;
+    max-width: 960px;
+    margin: 20px auto 0;
+
+    @include mq(tb) {
+        justify-content: center;
+        flex-direction: column-reverse;
+        padding: 10px 10px 30px;
+    }
+}

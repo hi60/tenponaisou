@@ -1,0 +1,85 @@
+.c-slide-card {
+    overflow: hidden;
+}
+
+
+.c-recommend-card {
+    display: block;
+    width: 210px;
+    border: 1px solid $dark-gray;
+    font-size: 11px;
+    padding-bottom: 10px;
+
+    img {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    p {
+        margin-left: 5px;
+    }
+
+    &:hover {
+        img {
+            opacity: 0.8;
+        }
+    }
+}
+
+.c-nd-card {
+    display: block;
+    border: 1px solid $dark-gray;
+    margin-bottom: 20px;
+
+    img {
+        width: 100%;
+    }
+
+    &:hover {
+        img {
+            opacity: 0.8;
+        }
+    }
+}
+
+.c-card__info {
+    padding: 10px;
+}
+
+.c-card__detail {
+    display: flex;
+    border-bottom: 1px dotted $dark-gray;
+    padding: 5px 0;
+    font-size: 12px;
+
+    &:last-child {
+        border: none;
+    }
+}
+
+.c-card__detail-head {
+    width: 70px;
+}
+
+.c-dr-card {
+    display: block;
+    width: 310px;
+    border: 1px solid $dark-gray;
+    margin-bottom: 20px;
+    
+    img {
+        width: 100%;
+        height: 205px;
+    }
+
+    &:hover {
+        img {
+            opacity: 0.8;
+        }
+    }
+
+    @include mq(tb) {
+        width: 100%;
+
+    }
+}

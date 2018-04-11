@@ -1,0 +1,62 @@
+.p-query {
+    width: 50%;
+
+    @include mq(tb) {
+        width: 100%;
+        margin: 10px auto;
+    }
+}
+
+.p-query__wrap {
+    position: relative;
+    border: 1px solid $dark-gray;
+    background-color: #fff;
+
+    &:after {
+        position: absolute;
+        content: '';
+        background: url('../images/match_icon.png');
+        width: 70px;
+        height: 64px;
+        bottom: 3px;
+        left: 5px;
+    }
+}
+
+.p-query__form {
+    padding: 10px;
+}
+
+.p-query__items {
+    display: flex;
+    flex-direction: column;
+    padding-left: 20px;
+    margin-bottom: 20px;
+}
+
+.p-query__item {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-bottom: 10px;
+}
+
+.p-query__ttl {
+    width: 100px;
+    padding-top: 3px;
+}
+
+.p-query__radio {
+    display: flex;
+    width: 300px;
+    flex-wrap: wrap;
+
+    & > li {
+        width: 150px;
+        margin-bottom: 5px;
+    }
+}
+
+.p-query__select-cutom {
+    border: 1px solid $dark-gray;
+}

@@ -1,0 +1,11 @@
+$brand-color: #f55;
+$main-background: #f2f2f2;
+$dark-gray: #717171;
+
+$breakpoint-tb: 768px;
+$breakpoint-sp: 480px;
+
+$breakpoints: (
+    'tb': 'screen and (max-width: 768px)',
+    'sp': 'screen and (max-width: 480px)'
+)

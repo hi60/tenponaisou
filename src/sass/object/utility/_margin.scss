@@ -1,0 +1,29 @@
+.u-mr10 {
+    margin-right: 10px;
+}
+
+.u-mr20 {
+    margin-right: 20px;
+}
+
+.u-ml25 {
+    padding-left: 25px;
+}
+
+.u-mb5 {
+    margin-bottom: 5px;
+}
+
+.u-mb10 {
+    margin-bottom: 10px;
+}
+
+.u-mb20 {
+    margin-bottom: 20px;
+}
+
+.u-rp__mr10 {
+    @include mq(tb) {
+        padding-right: 10px;
+    }
+}

@@ -1,0 +1,137 @@
+h1 {
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    background-color: $dark-gray;
+    padding: 5px 10px;
+}
+
+h2 {
+    font-size: 18px;
+    font-weight: bold;
+    background: linear-gradient(to bottom, #fff 0%, #cecece 88%);
+    border-top: 5px solid #e5c700;
+    padding: 5px 10px;
+}
+
+h3 {
+    font-size: 12px;
+    color: $brand-color;
+    margin-bottom: 5px;
+}
+
+h4 {
+    font-size: 12px;
+    margin: 0 0 5px 20px;
+}
+
+.u-normal-size__font {
+    font-size: 12px;
+}
+
+.u-nav__txt {
+    color: #fff;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.u-menu__txt {
+    color: #000;
+    font-size: 12px;
+}
+
+.u-red-head {
+    background-color:  $brand-color;
+}
+
+.u-red-txt {
+    color: $brand-color;
+}
+
+.u-query__txt {
+    font-size: 12px;
+    margin-bottom: 20px;
+}
+
+.u-initial__txt {
+    color: #000;
+}
+
+.u-side-date {
+    padding: 5px 0;
+    font-size: 8px;
+}
+
+.u-side-head {
+    font-size: 11px;
+    font-weight: bold;
+    line-height: 1.2em;
+}
+
+.u-fs10 {
+    font-size: 10px;
+}
+
+.u-fs12 {
+    font-size: 12px;
+}
+
+.u-fs13 {
+    font-size: 13px;
+}
+
+.u-ta-right {
+    text-align: right;
+}
+
+.u-more-txt {
+    display: block;
+    text-align: right;
+    font-size: 12px;
+    color: $brand-color;
+}
+
+.u-rank-txt01 {
+    position: relative;
+    color: #d0b127;
+
+    &:before {
+        position: absolute;
+        top: -3px;
+        left: -20px;
+        width: 16px;
+        height: 16px;
+        content: '';
+        background: url('../images/rank_1.png');
+    }
+}
+
+.u-rank-txt02 {
+    position: relative;
+    color: #626262;
+
+    &:before {
+        position: absolute;
+        top: -3px;
+        left: -20px;
+        width: 16px;
+        height: 16px;
+        content: '';
+        background: url('../images/rank_2.png');
+    }
+}
+
+.u-rank-txt03 {
+    position: relative;
+    color: #a76804;
+
+    &:before {
+        position: absolute;
+        top: -3px;
+        left: -20px;
+        width: 16px;
+        height: 16px;
+        content: '';
+        background: url('../images/rank_3.png');
+    }
+}

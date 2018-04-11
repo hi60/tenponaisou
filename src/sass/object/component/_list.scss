@@ -1,0 +1,85 @@
+.c-side__list {
+    padding: 10px;
+    border-top: 1px solid $dark-gray;
+    font-size: 14px;
+    font-weight: bold;
+    color: #000;
+
+    &:first-child {
+        border-top: none;
+    }
+}
+
+.c-side__list__hide {
+    display: none;
+}
+
+.c-side__list__menu {
+    padding:5px 25px;
+    font-size: 14px;
+
+    &:last-child {
+        padding-bottom: 10px;
+    }
+}
+
+.c-arrow-parent {
+    position: relative;
+}
+
+.c-list-arrow {
+    &:after {
+        content: '';
+        position: absolute;
+        top: 7px;
+        right: 5px;
+        width: 16px;
+        height: 16px;
+        background-image: url('../images/arrow_gray_right.png')
+    }
+}
+
+.c-list-arrow__is-open {
+    &:after {
+        content: '';
+        position: absolute;
+        top: 7px;
+        right: 5px;
+        width: 16px;
+        height: 16px;
+        background-image: url('../images/arrow_gray_bottom.png')
+    }
+}
+
+.c-list-icon-r {
+    &:before {
+        content: '';
+        position: absolute;
+        width: 16px;
+        height: 16px;
+        left: -1px;
+        background: url('../images/restaurant_icon.png')
+    }
+}
+
+.c-list-icon-p {
+    &:before {
+        content: '';
+        position: absolute;
+        width: 16px;
+        height: 16px;
+        left: -1px;
+        background: url('../images/product_icon.png')
+    }
+}
+
+.c-list-icon-s {
+    &:before {
+        content: '';
+        position: absolute;
+        width: 16px;
+        height: 16px;
+        left: -1px;
+        background: url('../images/service_icon.png')
+    }
+}

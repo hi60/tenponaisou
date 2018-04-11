@@ -1,0 +1,54 @@
+.c-query__btn {
+    display: block;
+    margin: 0 auto;
+    color: #fff;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 5px 15px;
+    border-radius: 3px;
+    background: linear-gradient(to bottom, #f4ec05 0%, #9a9314 88%);
+    
+    @include mq(tb) {
+        width: 100%;
+    }
+}
+
+.c-prev-btn {
+    background: url('../images/arrow_white_left.png');
+    background-size: 25%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.c-prev-btn {
+    position: absolute;
+    top: 50%;
+    left: 10px;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: none;
+    background-color: rgba(255, 255, 255, .5);
+    cursor: pointer;
+    z-index: 100;
+}
+
+.c-next-btn {
+    background: url('../images/arrow_white_right.png');
+    background-size: 25%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.c-next-btn {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: none;
+    background-color: rgba(255, 255, 255, .5);
+    cursor: pointer;
+    z-index: 100;
+}
