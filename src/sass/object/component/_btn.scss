@@ -53,3 +53,42 @@
     cursor: pointer;
     z-index: 100;
 }
+
+.c-current__page-btn {
+    width: 32px;
+    height: 32px;
+    font-size: 12px;
+    color: #fff;
+    background-color: #bfa035;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 5px;
+}
+
+.c-another__page-btn {
+    width: 32px;
+    height: 32px;
+    color: #bfa035;
+    font-size: 12px;
+    background-color: #fff;
+    border: 1px solid #bfa035;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 5px;
+}
+
+.c-next__page-btn {
+    width: 32px;
+    height: 32px;
+    color: #fff;
+    font-size: 12px;
+    background-color: #bfa035;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

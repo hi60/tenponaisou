@@ -83,3 +83,14 @@
 
     }
 }
+
+.c-hitted__company-card {
+    background-color: #f0f0f0;
+}
+
+.c-hitted__company-card__top {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    border-bottom: 1px solid $dark-gray;
+}

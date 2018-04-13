@@ -74,66 +74,7 @@
                     </div>
                 </div>
             </div>
-            <div class="p-recommend">
-                <h1 class="u-red-head">オススメデザイン</h1>
-                <div class="p-recommend__wrap">
-                    <div class="js-recommend-slider p-recommend__slider">
-                        <ul class="p-recommend-cards">
-                            <li>
-                                <a href="" class="c-recommend-card">
-                                    <img src="./assets/images/HIBIKI-1-198x132.jpg" alt="">
-                                    <p class="u-mb10 u-red-txt">HIBIKI</p>
-                                    <p class="u-initial__txt">会社名 BaNANA OFFICE INC.</p>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="" class="c-recommend-card">
-                                    <img src="" alt="">
-                                    <p class="u-mb10 u-red-txt"></p>
-                                    <p class="u-initial__txt">会社名</p>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="" class="c-recommend-card">
-                                    <img src="./assets/images/0feb515a6a6c74a4fd522fd6b17afece-198x132.jpg" alt="">
-                                    <p class="u-mb10 u-red-txt">MINX 銀座店</p>
-                                    <p class="u-initial__txt">会社名 ユニオンテック株式会社</p>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="" class="c-recommend-card">
-                                    <img src="./assets/images/4e4e35b0ddf16e08d1c3e09eac2f1e99-198x132.jpg" alt="">
-                                    <p class="u-mb10 u-red-txt">miyamasu'</p>
-                                    <p class="u-initial__txt">会社名 BaNANA OFFICE INC.</p>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="" class="c-recommend-card">
-                                    <img src="./assets/images/67b10f979326f5671879926f5217330a-1-198x132.jpg" alt="">
-                                    <p class="u-mb10 u-red-txt">Tuscita</p>
-                                    <p class="u-initial__txt">会社名 ユニオンテック株式会社</p>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="" class="c-recommend-card">
-                                    <img src="./assets/images/1449333641c5549a02632f0d45591bb5-198x132.jpg" alt="">
-                                    <p class="u-mb10 u-red-txt">虎ノ門ハングリータイガー</p>
-                                    <p class="u-initial__txt">会社名 株式会社VIDA Corporation</p>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="" class="c-recommend-card">
-                                    <img src="./assets/images/a3412d9753072f5d9604d2821e252967-198x132.jpg" alt="">
-                                    <p class="u-mb10 u-red-txt">麻布十番シモン</p>
-                                    <p class="u-initial__txt">会社名 株式会社　明和住建</p>
-                                </a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-                <button class="c-prev-btn js-slider-btn" data-slide="prev"></button>
-                <button class="c-next-btn js-slider-btn" data-slide="next"></button>
-            </div>
+            <%- include(`${path}/_recommend`) %>
             <div class="p-main__wrap">
                 <div class="p-side">
                     <div class="p-side__contents">
@@ -193,70 +134,14 @@
                     </div>
                     <div class="p-side__contents">
                         <h2>新着お知らせ</h2>
-                        <ul>
-                            <li class="c-side__list">
-                                <div>
-                                    <a href="" class="p-side__new-info">
-                                        <img src="./assets/images/35420d01b322b4d98fd6a33513d7279d-1-150x150.jpg" alt="">
-                                        <div class="p-side__new-info__txt">
-                                            <p class="u-side-date">2016.12.6</p>
-                                            <p class="u-side-head">トップランニング株式会社の掲載をいたしました。</p>
-                                        </div>
-                                    </a>
-                                    
-                                </div>
-                            </li>
-                            <li class="c-side__list">
-                                <div>
-                                    <a href="" class="p-side__new-info">
-                                        <img src="./assets/images/5960691134604ff1f31875e6f5617b07-1-150x150.jpg" alt="">
-                                        <div class="p-side__new-info__txt">
-                                            <p class="u-side-date">2016.8.26</p>
-                                            <p class="u-side-head">株式会社B-PROJECT様の掲載をいたしました。</p>
-                                        </div>
-                                    </a>
-                                </div>
-                            </li>
-                            <li class="c-side__list">
-                                <div>
-                                    <a href="" class="p-side__new-info">
-                                        <img src="./assets/images/a27826e2d743df95ab085733e104dad7-1-150x150.jpg" alt="">
-                                        <div class="p-side__new-info__txt">
-                                            <p class="u-side-date">2016.8.24</p>
-                                            <p class="u-side-head">森田空間設計様の掲載をいたしました。</p>
-                                        </div>
-                                    </a>
-                                </div>
-                            </li>
-                            <li class="c-side__list">
-                                <div>
-                                    <a href="" class="p-side__new-info">
-                                        <img src="./assets/images/5eb7d248878fb074aa9d2e84b3b0e9ab-150x150.jpg" alt="">
-                                        <div class="p-side__new-info__txt">
-                                            <p class="u-side-date">2016.8.24</p>
-                                            <p class="u-side-head">ト株式会社DESIGN STUDIO CROW様の掲載をいたしました。</p>
-                                        </div>
-                                    </a>
-                                </div>
-                            </li>
-                            <li class="c-side__list">
-                                <div>
-                                    <a href="" class="p-side__new-info">
-                                        <img src="./assets/images/bf4dd911f953a6b35f67941a58cda935-150x150.jpg" alt="">
-                                        <div class="p-side__new-info__txt">
-                                            <p class="u-side-date">2016.8.24</p>
-                                            <p class="u-side-head">株式会社松下松下トータルプラン様の掲載をいたしました。</p>
-                                        </div>
-                                    </a>
-                                </div>
-                            </li>
+                        <ul class="js-noticeRendering">
                             <li class="c-side__list u-red-txt u-fs10 u-ta-right">お知らせ一覧</li>
                         </ul>
                     </div>
                     <div class="p-side__contents">
                         <h2>ご利用の声</h2>
-                        <ul>
-                            <li class="c-side__list">
+                        <ul　class="js-voiceRendering">
+                            <!-- <li class="c-side__list">
                                 <div>
                                     <a href="" class="p-side__new-info">
                                         <img src="./assets/images/l_e_others_501-150x150.png" alt="">
@@ -289,7 +174,7 @@
                                         </div>
                                     </a>
                                 </div>
-                            </li>
+                            </li> -->
                             <li class="c-side__list u-red-txt u-fs10 u-ta-right">お客様の声一覧</li>
                         </ul>
                     </div>
@@ -310,127 +195,7 @@
                     <div class="p-new-design u-mb20">
                         <h1 class="p-contents__head-border u-mb20">新着デザイン</h1>
                         <div>
-                            <ul class="p-design__wrap">
-                                <li class="u-rp__mr10">
-                                    <a href="" class="c-nd-card">
-                                        <img src="./assets/images/a3412d9753072f5d9604d2821e252967-198x132.jpg" alt="">
-                                        <div class="c-card__info">
-                                            <h3>ヘアサロン（トッププランニ…</h3>
-                                            <div class="c-card__detail">
-                                                <p class="c-card__detail-head">カテゴリー</p>
-                                                <p></p>
-                                            </div>
-                                            <div class="c-card__detail">
-                                                <p class="c-card__detail-head">面積</p>
-                                                <p></p>
-                                            </div>
-                                            <div class="c-card__detail">
-                                                <p class="c-card__detail-head">会社名</p>
-                                                <p>トッププランニ…</p>
-                                            </div>
-                                        </div>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="" class="c-nd-card">
-                                        <img src="./assets/images/4e4e35b0ddf16e08d1c3e09eac2f1e99-198x132.jpg" alt="">
-                                        <div class="c-card__info">
-                                            <h3>ヘアサロン（B-PROJECT）</h3>
-                                            <div class="c-card__detail">
-                                                <p class="c-card__detail-head">カテゴリー</p>
-                                                <p></p>
-                                            </div>
-                                            <div class="c-card__detail">
-                                                <p class="c-card__detail-head">面積</p>
-                                                <p></p>
-                                            </div>
-                                            <div class="c-card__detail">
-                                                <p class="c-card__detail-head">会社名</p>
-                                                <p>株式会社B-PR…</p>
-                                            </div>
-                                        </div>
-                                    </a>
-                                </li>
-                                <li class="u-rp__mr10">
-                                    <a href="" class="c-nd-card">
-                                        <img src="./assets/images/cafe-piccolo1-198x132.jpg" alt="">
-                                        <div class="c-card__info">
-                                            <h3>cafe piccolo</h3>
-                                            <div class="c-card__detail">
-                                                <p class="c-card__detail-head">カテゴリー</p>
-                                                <p>カフェ</p>
-                                            </div>
-                                            <div class="c-card__detail">
-                                                <p class="c-card__detail-head">面積</p>
-                                                <p>7</p>
-                                            </div>
-                                            <div class="c-card__detail">
-                                                <p class="c-card__detail-head">会社名</p>
-                                                <p>森田空間設計</p>
-                                            </div>
-                                        </div>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="" class="c-nd-card">
-                                        <img src="./assets/images/c99ad64992dc03d601aa8431ead08979-198x132.jpg" alt="">
-                                        <div class="c-card__info">
-                                            <h3>BINA TERRACE</h3>
-                                            <div class="c-card__detail">
-                                                <p class="c-card__detail-head">カテゴリー</p>
-                                                <p>エステサロン</p>
-                                            </div>
-                                            <div class="c-card__detail">
-                                                <p class="c-card__detail-head">面積</p>
-                                                <p>20</p>
-                                            </div>
-                                            <div class="c-card__detail">
-                                                <p class="c-card__detail-head">会社名</p>
-                                                <p>森田空間設計</p>
-                                            </div>
-                                        </div>
-                                    </a>
-                                </li>
-                                <li class="u-rp__mr10">
-                                    <a href="" class="c-nd-card">
-                                        <img src="./assets/images/1449333641c5549a02632f0d45591bb5-198x132.jpg" alt="">
-                                        <div class="c-card__info">
-                                            <h3>ANT'S サザンビーチ</h3>
-                                            <div class="c-card__detail">
-                                                <p class="c-card__detail-head">カテゴリー</p>
-                                                <p>美容室</p>
-                                            </div>
-                                            <div class="c-card__detail">
-                                                <p class="c-card__detail-head">面積</p>
-                                                <p>50</p>
-                                            </div>
-                                            <div class="c-card__detail">
-                                                <p class="c-card__detail-head">会社名</p>
-                                                <p>森田空間設計</p>
-                                            </div>
-                                        </div>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="" class="c-nd-card">
-                                        <img src="./assets/images/f7a3230272c2186f0570b92fe5af18e8-198x132.jpg" alt="">
-                                        <div class="c-card__info">
-                                            <h3>キッチンカフェ　けんむん</h3>
-                                            <div class="c-card__detail">
-                                                <p class="c-card__detail-head">カテゴリー</p>
-                                                <p>郷土料理</p>
-                                            </div>
-                                            <div class="c-card__detail">
-                                                <p class="c-card__detail-head">面積</p>
-                                                <p>20</p>
-                                            </div>
-                                            <div class="c-card__detail">
-                                                <p class="c-card__detail-head">会社名</p>
-                                                <p>森田空間設計</p>
-                                            </div>
-                                        </div>
-                                    </a>
-                                </li>
+                            <ul class="p-design__wrap js-newDesignRendering">
                             </ul>
                             <p>
                                 <a href="" class="u-more-txt">もっとみる</a>
@@ -439,87 +204,7 @@
                     </div>
                     <div class="p-design__ranking u-mb20">
                         <h1 class="p-contents__head-border u-mb20">デザインランキング</h1>
-                        <ul class="p-design__wrap">
-                            <li class="u-rp__mr10">
-                                <a href="" class="c-dr-card">
-                                    <img src="./assets/images/3df6bd71f8114f16ea9cc2de21dbef8f.jpg" alt="">
-                                    <div class="c-card__info">
-                                        <h4 class="u-rank-txt01">QUEEN OF CHICKENS GUEST HOUSE</h4>
-                                        <div class="c-card__detail">
-                                            <p class="c-card__detail-head">カテゴリー</p>
-                                            <p>バー</p>
-                                        </div>
-                                        <div class="c-card__detail">
-                                            <p class="c-card__detail-head">面積</p>
-                                            <p></p>
-                                        </div>
-                                        <div class="c-card__detail">
-                                            <p class="c-card__detail-head">会社名</p>
-                                            <p>株式会社VIDA Corporation</p>
-                                        </div>
-                                    </div>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="" class="c-dr-card">
-                                    <img src="./assets/images/ef57d54c551084a33e8913ae2c5f00fe.jpg" alt="">
-                                    <div class="c-card__info">
-                                        <h4 class="u-rank-txt02">POMMEKE外苑前店</h4>
-                                        <div class="c-card__detail">
-                                            <p class="c-card__detail-head">カテゴリー</p>
-                                            <p>フライドポテト専門店</p>
-                                        </div>
-                                        <div class="c-card__detail">
-                                            <p class="c-card__detail-head">面積</p>
-                                            <p></p>
-                                        </div>
-                                        <div class="c-card__detail">
-                                            <p class="c-card__detail-head">会社名</p>
-                                            <p>BaNANA OFFICE INC.</p>
-                                        </div>
-                                    </div>
-                                </a>
-                            </li>
-                            <li class="u-rp__mr10">
-                                <a href="" class="c-dr-card">
-                                    <img src="./assets/images/DSC_0011-768x432.jpg" alt="">
-                                    <div class="c-card__info">
-                                        <h4 class="u-rank-txt03 ">麻布十番シモン</h4>
-                                        <div class="c-card__detail">
-                                            <p class="c-card__detail-head">カテゴリー</p>
-                                            <p>韓国料理屋</p>
-                                        </div>
-                                        <div class="c-card__detail">
-                                            <p class="c-card__detail-head">面積</p>
-                                            <p>22</p>
-                                        </div>
-                                        <div class="c-card__detail">
-                                            <p class="c-card__detail-head">会社名</p>
-                                            <p>株式会社　明和住建</p>
-                                        </div>
-                                    </div>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="" class="c-dr-card">
-                                    <img src="" alt="">
-                                    <div class="c-card__info">
-                                        <h4></h4>
-                                        <div class="c-card__detail">
-                                            <p class="c-card__detail-head">カテゴリー</p>
-                                            <p></p>
-                                        </div>
-                                        <div class="c-card__detail">
-                                            <p class="c-card__detail-head">面積</p>
-                                            <p></p>
-                                        </div>
-                                        <div class="c-card__detail">
-                                            <p class="c-card__detail-head">会社名</p>
-                                            <p></p>
-                                        </div>
-                                    </div>
-                                </a>
-                            </li>
+                        <ul class="p-design__wrap js-designRankRendering">
                         </ul>
                         <p>
                             <a href="" class="u-more-txt">もっとみる</a>
@@ -529,31 +214,6 @@
                         <h1 class="p-contents__head-border u-mb20">新着ニュース</h1>
                         <div class="p-whats__new__wrap">
                             <ul>
-                                <li class="p-whats__new__item">
-                                    <a href="">
-                                        <p class=" u-fs13"><span class="u-mr10">2016.12.06</span>トッププランニング株式会社の掲載をいたしました。</p>
-                                    </a>
-                                </li>
-                                <li class="p-whats__new__item">
-                                    <a href="">
-                                        <p class="u-fs13"><span class="u-mr10">2016.08.26</span>株式会社B-PROJECT様の掲載をいたしました。</p>
-                                    </a>
-                                </li>
-                                <li class="p-whats__new__item">
-                                    <a href="">
-                                        <p class="u-fs13"><span class="u-mr10">2016.08.24</span>森田空間設計様の掲載をいたしました。</p>
-                                    </a>
-                                </li>
-                                <li class="p-whats__new__item">
-                                    <a href="">
-                                        <p class="u-fs13"><span class="u-mr10">2016.08.24</span>株式会社DESIGN SRUDIO CROW様の掲載をいたしました。</p>
-                                    </a>
-                                </li>
-                                <li class="p-whats__new__item">
-                                    <a href="">
-                                        <p class="u-fs13"><span class="u-mr10">2016.12.06</span>株式会社松下トータルプラン様の掲載をいたしました。</p>
-                                    </a>
-                                </li>
                             </ul>
                         </div>
                         <p>

@@ -86,3 +86,74 @@
         padding: 10px 10px 30px;
     }
 }
+
+.p-result__wrap {
+    max-width: 960px;
+    margin: 20px auto;
+}
+
+.p-result__search-box {
+    h1 {
+        padding: 13px;
+    }
+}
+
+.p-result__search-box__list {
+    display: flex;
+    justify-content: space-around;
+    background-color: #f0f0f0;
+    border: 1px solid $border-gray;
+
+}
+
+.p-result__search-box__item {
+    width: 33.3%;
+    padding: 15px 10px 10px 20px;
+    border-right: 1px solid $border-gray;
+
+    p {
+        margin-bottom: 3px;
+    }
+
+    &:last-child {
+        border-right: none;
+    }
+}
+
+.p-area__select {
+    select {
+        min-width: 120px;;
+    }
+}
+
+.p-result__search-box__word {
+    display: flex;
+
+    button {
+        width: 80px;
+        margin: 0;
+    }
+}
+
+.p-result__search-box__word-inp {
+    width: initial;
+    min-width: 130px;
+    margin-right: 5px;
+    height: 29px;
+    border: 1px solid $dark-gray;
+}
+
+.p-hitted__search {
+    display: flex;
+    justify-content: space-between;
+    margin: 30px 0;
+}
+
+.p-hitted__search__pages {
+    display: flex;
+}
+
+.p-hitted__company {
+    display: flex;
+    justify-content: space-between;
+}

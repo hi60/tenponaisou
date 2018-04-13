@@ -1,0 +1,162 @@
+{
+    "recommend": [
+        {
+            "img": "/assets/images/HIBIKI-1-198x132.jpg",
+            "shop": "HIBIKI",
+            "company": "会社名 BaNANA OFFICE INC."
+        },
+        {
+            "img": "",
+            "shop": "",
+            "company": "会社名"
+        },
+        {
+            "img": "/assets/images/0feb515a6a6c74a4fd522fd6b17afece-198x132.jpg",
+            "shop": "MINX 銀座店",
+            "company": "会社名 ユニオンテック株式会社"
+        },
+        {
+            "img": "/assets/images/4e4e35b0ddf16e08d1c3e09eac2f1e99-198x132.jpg",
+            "shop": "miyamasu'",
+            "company": "会社名 BaNANA OFFICE INC."
+        },
+        {
+            "img": "/assets/images/67b10f979326f5671879926f5217330a-1-198x132.jpg",
+            "shop": "Tuscita",
+            "company": "会社名 ユニオンテック株式会社"
+        },
+        {
+            "img": "/assets/images/1449333641c5549a02632f0d45591bb5-198x132.jpg",
+            "shop": "虎ノ門ハングリータイガー",
+            "company": "会社名 株式会社VIDA Corporation"
+        },
+        {
+            "img": "/assets/images/a3412d9753072f5d9604d2821e252967-198x132.jpg",
+            "shop": "麻布十番シモン",
+            "company": "会社名 株式会社　明和住建"
+        }
+    ],
+
+    "newDesign": [
+        {
+            "img": "/assets/images/a3412d9753072f5d9604d2821e252967-198x132.jpg",
+            "title": "ヘアサロン（トッププランニ…",
+            "cat": "",
+            "area": "",
+            "company": "トッププランニ…"
+        },
+        {
+            "img": "/assets/images/4e4e35b0ddf16e08d1c3e09eac2f1e99-198x132.jpg",
+            "title": "ヘアサロン（B-PROJECT）",
+            "cat": "",
+            "area": "",
+            "company": "株式会社B-PR…"
+        },
+        {
+            "img": "/assets/images/cafe-piccolo1-198x132.jpg",
+            "title": "cafe piccolo",
+            "cat": "カフェ",
+            "area": "7",
+            "company": "森田空間設計"
+        },
+        {
+            "img": "/assets/images/c99ad64992dc03d601aa8431ead08979-198x132.jpg",
+            "title": "BINA TERRACE",
+            "cat": "エステサロン",
+            "area": "20",
+            "company": "森田空間設計"
+        },
+        {
+            "img": "/assets/images/1449333641c5549a02632f0d45591bb5-198x132.jpg",
+            "title": "ANT'S サザンビーチ",
+            "cat": "美容室",
+            "area": "50",
+            "company": "森田空間設計"
+        },
+        {
+            "img": "/assets/images/f7a3230272c2186f0570b92fe5af18e8-198x132.jpg",
+            "title": "キッチンカフェ　けんむん",
+            "cat": "郷土料理",
+            "area": "20",
+            "company": "森田空間設計"
+        }
+    ],
+
+    "designRank": [
+        {
+            "img": "/assets/images/3df6bd71f8114f16ea9cc2de21dbef8f.jpg",
+            "title": "QUEEN OF CHICKENS GUEST HOUSE",
+            "cat": "バー",
+            "area": "",
+            "company": "株式会社VIDA Corporation"
+        },
+        {
+            "img": "/assets/images/ef57d54c551084a33e8913ae2c5f00fe.jpg",
+            "title": "POMMEKE外苑前店",
+            "cat": "フライドポテト専門店",
+            "area": "",
+            "company": "BaNANA OFFICE INC."
+        },
+        {
+            "img": "/assets/images/DSC_0011-768x432.jpg",
+            "title": "麻布十番シモン",
+            "cat": "",
+            "area": "22",
+            "company": "株式会社　明和住建"
+        },
+        {
+            "img": "",
+            "title": "",
+            "cat": "",
+            "area": "",
+            "company": ""
+        }
+    ],
+
+
+    "notice" :[
+        {
+            "img": "/assets/images/35420d01b322b4d98fd6a33513d7279d-1-150x150.jpg",
+            "date": "2016.12.06",
+            "text": "トッププランニング株式会社の掲載をいたしました。"
+        },
+        {
+            "img": "/assets/images/5960691134604ff1f31875e6f5617b07-1-150x150.jpg",
+            "date": "2016.08.26",
+            "text": "株式会社B-PROJECT様の掲載をいたしました。"
+        },
+        {
+            "img": "/assets/images/a27826e2d743df95ab085733e104dad7-1-150x150.jpg",
+            "date": "2016.08.26",
+            "text": "森田空間設計様の掲載をいたしました。"
+        },
+        {
+            "img": "/assets/images/5eb7d248878fb074aa9d2e84b3b0e9ab-150x150.jpg",
+            "date": "2016.08.26",
+            "text": "株式会社DESIGN SRUDIO CROW様の掲載をいたしました。"
+        },
+        {
+            "img": "/assets/images/bf4dd911f953a6b35f67941a58cda935-150x150.jpg",
+            "date": "2016.08.26",
+            "text": "株式会社松下トータルプラン様の掲載をいたしました。"
+        }
+    ],
+
+    "voice": [
+        {
+            "img": "/assets/images/l_e_others_501-150x150.png",
+            "date": "2015.12.18",
+            "text": "自分がイメージした以上のお店"
+        },
+        {
+            "img": "/assets/images/l_e_others_501-150x150.png",
+            "date": "2015.12.18",
+            "text": "長く継続できる店舗"
+        },
+        {
+            "img": "/assets/images/l_e_others_501-150x150.png",
+            "date": "2015.12.18",
+            "text": "お客様のことを考えた店舗内装"
+        }
+    ]
+}
